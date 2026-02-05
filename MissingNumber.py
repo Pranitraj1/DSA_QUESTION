@@ -1,4 +1,4 @@
-class Timepass:
+class MissingNumber:
     def missingNumber(self, arr, n):
         expected_sum = n * (n + 1) // 2
         actual_sum = sum(arr)
@@ -15,6 +15,6 @@ class Timepass:
 
 arr = [1,2,4,5]
 n = 5
-obj = Timepass()
+obj = MissingNumber()
 print(obj.missingNumber(arr, n))
 print(obj.missingNumber2(arr, n))
